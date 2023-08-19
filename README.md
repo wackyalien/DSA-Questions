@@ -4,3 +4,10 @@ Day -1
 3. https://www.codingninjas.com/studio/problems/middle-of-three_1118283?topList=love-babbar-dsa-sheet-problems&utm_source=website&utm_medium=affiliate&utm_campaign=450dsatracker
 4. https://www.codingninjas.com/studio/problems/find-the-repeating-and-missing-number_1062727?topList=love-babbar-dsa-sheet-problems&utm_source=website&utm_medium=affiliate&utm_campaign=450dsatracker
 5. https://www.codingninjas.com/studio/problems/majority-element_842495?topList=love-babbar-dsa-sheet-problems&utm_source=website&utm_medium=affiliate&utm_campaign=450dsatracker
+
+Day - 2
+1. https://www.codingninjas.com/studio/problems/find-student_3161883?topList=love-babbar-dsa-sheet-problems&utm_source=website&utm_medium=affiliate&utm_campaign=450dsatracker
+2. https://www.codingninjas.com/studio/problems/pair-difference-k_1089634?topList=love-babbar-dsa-sheet-problems&utm_source=website&utm_medium=affiliate&utm_campaign=450dsatracker
+3. https://www.codingninjas.com/studio/problems/find-four-elements-that-sums-to-a-given-value_983605?topList=love-babbar-dsa-sheet-problems&utm_source=website&utm_medium=affiliate&utm_campaign=450dsatracker
+4. https://www.codingninjas.com/studio/problems/3-sum-smaller_3161884?topList=love-babbar-dsa-sheet-problems&utm_source=website&utm_medium=affiliate&utm_campaign=450dsatracker
+5. https://www.codingninjas.com/studio/problems/ninja-and-sorted-arrays_1214628?topList=love-babbar-dsa-sheet-problems&utm_source=website&utm_medium=affiliate&utm_campaign=450dsatracker
