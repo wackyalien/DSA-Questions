@@ -1,0 +1,25 @@
+
+public class Solution {
+
+	public static int sqrtN(long N) {
+        long s=0;
+        long e=N;
+        int result=1;
+		while(s<=e) {
+            long mid = s+(e-s)/2;
+            long sqrt = mid*mid;
+            if(sqrt==N) {
+                result= (int) mid;
+                break;
+            }
+            else if(sqrt>N) {
+                e=mid-1;
+            }
+            else {
+                result= (int) mid;
+                s=mid+1;
+            }
+        }
+        return result;
+	}
+}
