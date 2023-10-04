@@ -1,7 +1,12 @@
 ### DSA ###
 [Sources](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/) 
 
-
+Recursion Day 1
+1. https://www.codingninjas.com/studio/problems/subset-sum_3843086?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
+2. https://www.codingninjas.com/studio/problems/unique-subsets_3625236?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
+3. https://www.codingninjas.com/studio/problems/759331?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
+4. https://www.codingninjas.com/studio/problems/1112622?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
+5. https://www.codingninjas.com/studio/problems/palindrome-partitioning_626181?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
 
 Day - 4
 1. https://www.codingninjas.com/studio/problems/1112629?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
