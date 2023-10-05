@@ -1,0 +1,25 @@
+import java.util.* ;
+import java.io.*; 
+public class Solution {
+    public static ArrayList<Integer> subsetSum(int num[]) {
+        // Write your code here..
+        ArrayList<Integer> solList = new ArrayList<>();
+        solution(0, 0, new ArrayList<>(), num, num.length, solList);
+        Collections.sort(solList);
+        return solList;
+    }
+
+    public static void solution(int index, int sum, ArrayList<Integer> list, int num[], int n, ArrayList<Integer> solList) {
+
+        if(index>=n) {
+            solList.add(sum);
+            return;
+        }
+        list.add(num[index]);
+        solution(index+1, sum + num[index], list, num, n, solList);
+
+        list.remove(list.size() - 1);
+        solution(index+1, sum, list, num, n, solList);
+    }
+
+}
