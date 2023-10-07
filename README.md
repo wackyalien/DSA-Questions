@@ -1,5 +1,12 @@
 ### DSA ###
 [Sources](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/) 
+Recursion Day 6
+1. https://www.codingninjas.com/studio/problems/1112626?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
+2. https://www.codingninjas.com/studio/problems/758958?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
+3. https://www.codingninjas.com/studio/problems/759332?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
+4. https://www.codingninjas.com/studio/problems/sudoku-solver_8416969?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+5. https://www.codingninjas.com/studio/problems/m-coloring-problem_981273?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+6. https://www.codingninjas.com/studio/problems/rat-in-a-maze-_8842357?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
 
 Recursion Day 5
 1. https://www.codingninjas.com/studio/problems/subset-sum_3843086?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
