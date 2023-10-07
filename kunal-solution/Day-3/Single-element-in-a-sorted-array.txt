@@ -1,0 +1,42 @@
+class Solution {
+    public int singleNonDuplicate(int[] arr) {
+        
+        return getSolution(arr);
+    }
+
+    public static int getSolution(int[] arr) {
+        int n = arr.length;
+        if(n==1){
+            return arr[0];
+        }
+
+        if(arr[0] != arr[1]) {
+            return arr[0];
+        }
+
+        if(arr[n-2] != arr[n-1]) {
+            return arr[n-1];
+        }
+
+        int s = 1;
+        int e = n-2;
+
+        while(s<=e) {
+
+            int mid = (s+e)/2;
+
+            if(arr[mid-1] != arr[mid] && arr[mid] != arr[mid+1]) {
+
+                return arr[mid];
+            } 
+            if ((mid%2==1 && arr[mid-1] == arr[mid]) ||
+            (mid%2==0 && arr[mid+1] == arr[mid])) {
+
+                s = mid+1;
+            } else {
+                e = mid-1;
+            }
+        }
+        return -1;
+    }
+}
