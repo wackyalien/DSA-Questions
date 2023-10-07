@@ -17,8 +17,8 @@ public class Solution {
 
     public static ArrayList<Integer> subsetSum(int num[]) {
         calculatesum(0,-1,num);
+        Collections.sort(subsetsums);
         return subsetsums;
-
     }
 
     public static void main(String args[]) {
