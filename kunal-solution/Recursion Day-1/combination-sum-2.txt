@@ -1,0 +1,36 @@
+import java.util.*;
+
+public class Solution 
+{
+    public static ArrayList<ArrayList<Integer>> combinationSum2(ArrayList<Integer> arr, int n, int target)
+    {
+        //    Write your code here.
+        Collections.sort(arr);
+        ArrayList<ArrayList<Integer>> solList = new ArrayList<>();
+        solution(0, arr, target, new ArrayList<>(), solList);
+
+        return solList;
+    }
+
+     public static void solution(int index, ArrayList<Integer> arr, int target, ArrayList<Integer> list, ArrayList<ArrayList<Integer>> solList) {
+
+        if(target == 0) {
+            solList.add(new ArrayList<>(list));
+            return;
+        }
+
+        for(int i=index; i<arr.size(); i++) {
+
+            if(i>index && arr.get(i)==arr.get(i-1)) {
+                continue;
+            }
+
+            if(arr.get(i)>target) {
+                break;
+            }
+            list.add(arr.get(i));
+            solution(i+1, arr, target-arr.get(i), list, solList);
+            list.remove(list.size()-1);
+        }
+    }
+}
