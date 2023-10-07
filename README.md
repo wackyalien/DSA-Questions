@@ -1,7 +1,7 @@
 ### DSA ###
 [Sources](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/) 
 
-Recursion Day 6
+Recursion+Backtacking Day 6
 1. https://www.codingninjas.com/studio/problems/1112626?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
 2. https://www.codingninjas.com/studio/problems/758958?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
 3. https://www.codingninjas.com/studio/problems/759332?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
