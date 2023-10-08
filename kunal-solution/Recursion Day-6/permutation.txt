@@ -1,0 +1,26 @@
+class Solution {
+    public List<List<Integer>> permute(int[] nums) {
+        int[] map = new int[nums.length];
+        List<List<Integer>> solList = new ArrayList<>();
+        solution(nums, map, solList, new ArrayList<>());
+        return solList;
+    }
+
+    public static void solution(int[] nums, int[] map, List<List<Integer>> solList, List<Integer> list) {
+
+        if(list.size() == nums.length) {
+            solList.add(new ArrayList(list));
+            return;
+        }
+
+        for(int i = 0; i<nums.length; i++) {
+            if(map[i]==0){
+                list.add(nums[i]);
+                map[i] = 1;
+                solution(nums, map, solList, list);
+                list.remove(list.size()-1);
+                map[i] = 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,66 @@
+class Solution {
+    public List<List<String>> solveNQueens(int n) {
+        char[][] board = new char[n][n];
+        for (int i = 0; i < n; i++){
+            for (int j = 0; j < n; j++){
+                board[i][j] = '.';
+            }
+        }
+        List<List<String>> solList = new ArrayList<>();
+        solution(0, n, solList, board); 
+        return solList;
+    }
+
+    public static void solution(int col, int n, List<List<String>> solList, char[][] board) {
+
+        if(col == n) {
+            List < String > res = new LinkedList < String > ();
+            for (int i = 0; i < board.length; i++) {
+                String s = new String(board[i]);
+                res.add(s);
+            }
+            solList.add(res);
+            return;
+        }
+
+        for(int row = 0; row<n; row++) {
+            if(validate(col, row, board, n)) {
+                board[row][col] = 'Q';
+                solution(col+1, n, solList, board);
+                board[row][col] = '.';
+            }
+        }
+    }
+
+    public static boolean validate(int col, int row, char[][] board, int n) {
+        int tempRow = row;
+        int tempCol = col;
+
+        while(col>=0 && row>=0) {
+            if(board[row][col] == 'Q'){
+                return false;
+            }
+            col--;
+            row--;
+        }
+
+        row = tempRow;
+        col = tempCol;
+        while(col>=0){
+            if(board[row][col] == 'Q'){
+                return false;
+            }
+            col--;
+        }
+
+        col = tempCol;
+        while(col>=0 && row<n) {
+            if(board[row][col] == 'Q'){
+                return false;
+            }
+            col--;
+            row++;
+        }
+        return true;
+    }
+}
