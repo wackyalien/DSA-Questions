@@ -2,30 +2,28 @@ import java.io.*;
 import java.util.*;
 
 public class Solution {
-    public static ArrayList<ArrayList<Integer>> gsubsetsums = new ArrayList<ArrayList<Integer>>();
-    public static Map<ArrayList<Integer>,Integer> subsetmap = new HashMap<ArrayList<Integer>,Integer>();
-    
-    public static int calculatesum( int start, int arr[], ArrayList subset,int lastinserted) {
-        if(start>=arr.length-1){
-            if(!subsetmap.containsKey(subset)) {
-                gsubsetsums.add(subset);
-                subsetmap.put(subset,1);
-            }
-            return 0;
-        }
-        ArrayList<Integer> subset1 = new ArrayList<Integer>(subset);
-        calculatesum(start+1, arr, subset1,lastinserted);
-        ArrayList<Integer> subset2 = new ArrayList<Integer>(subset);
-        subset2.add(arr[start+1]);
-        calculatesum(start+1, arr, subset2, lastinserted+1);
-        return 0;
+        public static ArrayList<ArrayList<Integer>> uniqueSubsets(int n, int arr[]) {
+        // Write your code here..
+        Arrays.sort(arr);
+        ArrayList<ArrayList<Integer>> arrList = new ArrayList<>();
+        solution(0, new ArrayList<>(), arr, arrList);
+        
+        return arrList;
     }
 
-    public static ArrayList<ArrayList<Integer>> uniqueSubsets(int n, int arr[]) {
-        ArrayList<Integer> subsetsums = new ArrayList<Integer>();
-        calculatesum(-1,arr,subsetsums,0);
-        // System.out.print(subsetmap);
-        return gsubsetsums;
+    public static void solution(int index, ArrayList<Integer> list, int num[], ArrayList<ArrayList<Integer>> solList) {
+
+        solList.add(new ArrayList<>(list));
+        
+        for(int i=index; i<num.length; i++) {
+
+            if(i!=index && num[i]==num[i-1]){
+                continue;
+            }
+            list.add(num[i]);
+            solution(i + 1, list, num, solList);
+            list.remove(list.size()-1);
+        }
     }
 
     public static void main(String args[]) {
