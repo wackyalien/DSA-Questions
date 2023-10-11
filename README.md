@@ -6,8 +6,8 @@ Recursion+Backtacking Day 6
 2. https://www.codingninjas.com/studio/problems/758958?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website &nbsp;<img src="https://img.shields.io/badge/Easy-65b168" >
 3. https://www.codingninjas.com/studio/problems/759332?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website &nbsp;<img src="https://img.shields.io/badge/Hard-fe4040" >
 4. https://www.codingninjas.com/studio/problems/sudoku-solver_8416969?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf &nbsp;<img src="https://img.shields.io/badge/Hard-fe4040" >
-5. https://www.codingninjas.com/studio/problems/m-coloring-problem_981273?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
-6. https://www.codingninjas.com/studio/problems/rat-in-a-maze-_8842357?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+5. https://www.codingninjas.com/studio/problems/m-coloring-problem_981273?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf &nbsp;<img src="https://img.shields.io/badge/Medium-ffc147" >
+6. https://www.codingninjas.com/studio/problems/rat-in-a-maze-_8842357?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf &nbsp;<img src="https://img.shields.io/badge/Hard-fe4040" >
 
 Recursion Day 5
 1. https://www.codingninjas.com/studio/problems/subset-sum_3843086?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
