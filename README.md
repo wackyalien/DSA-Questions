@@ -1,4 +1,5 @@
-### DSA ###
+<h1 align="center">75 Day Hard: DSA Edition</h1>
+
 [Sources](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/) 
 
 Recursion+Backtacking Day 6
