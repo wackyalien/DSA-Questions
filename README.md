@@ -2,10 +2,10 @@
 [Sources](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/) 
 
 Recursion+Backtacking Day 6
-1. https://www.codingninjas.com/studio/problems/1112626?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
-2. https://www.codingninjas.com/studio/problems/758958?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
-3. https://www.codingninjas.com/studio/problems/759332?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website
-4. https://www.codingninjas.com/studio/problems/sudoku-solver_8416969?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+1. https://www.codingninjas.com/studio/problems/1112626?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website &nbsp;<img src="https://img.shields.io/badge/Medium-ffc147" >
+2. https://www.codingninjas.com/studio/problems/758958?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website &nbsp;<img src="https://img.shields.io/badge/Easy-65b168" >
+3. https://www.codingninjas.com/studio/problems/759332?topList=striver-sde-sheet-problems&utm_source=striver&utm_medium=website &nbsp;<img src="https://img.shields.io/badge/Hard-fe4040" >
+4. https://www.codingninjas.com/studio/problems/sudoku-solver_8416969?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf &nbsp;<img src="https://img.shields.io/badge/Hard-fe4040" >
 5. https://www.codingninjas.com/studio/problems/m-coloring-problem_981273?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
 6. https://www.codingninjas.com/studio/problems/rat-in-a-maze-_8842357?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
 
