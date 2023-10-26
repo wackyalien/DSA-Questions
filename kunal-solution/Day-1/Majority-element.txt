@@ -1,0 +1,36 @@
+import java.io.*;
+import java.util.* ;
+
+public class Solution {
+	public static int findMajority(int[] arr, int n) {
+		// Write your code here.
+		return getAnswer(arr, n);
+	}
+
+	public static int getAnswer(int[] arr, int n) {
+
+		int floor = n/2;
+
+		Map<Integer, Integer> map = new HashMap<>();
+
+		for(int i : arr) {
+
+			if(map.containsKey(i)) {
+				map.put(i, map.get(i)+1);
+			} else {
+				map.put(i, 1);
+			}
+		}
+
+		for(int i : map.keySet()) {
+
+			int val = map.get(i);
+
+			if(val>floor) {
+				return i;
+			}
+		}
+
+		return -1;
+	}
+}

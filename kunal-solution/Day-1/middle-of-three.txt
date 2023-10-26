@@ -1,0 +1,16 @@
+import java.util.* ;
+import java.io.*; 
+public class Solution {
+	public static int middleOfThree(int x, int y, int z) {
+		// Write your code here.
+		return getMiddle(x,y,z);
+	}
+
+	static int getMiddle(int x, int y, int z) {
+
+		int min = Math.min(Math.min(x, y), z);
+		int max = Math.max(Math.max(x, y), z);
+
+		return ((x+y+z) - (min+max));
+	}
+}
