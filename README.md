@@ -2,6 +2,9 @@
 
 [Sources](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/) 
 
+String based question Day 7
+1. [Count With K Different Characters](https://www.codingninjas.com/studio/problems/count-with-k-different-characters_1214627)&nbsp;<img src="https://img.shields.io/badge/Medium-ffc147" >
+
 Recursion+Backtacking Day 6
 1. [K-th Permutation Sequence](https://www.codingninjas.com/studio/problems/1112626)&nbsp;<img src="https://img.shields.io/badge/Medium-ffc147" >
 2. [Print Permutations - String](https://www.codingninjas.com/studio/problems/758958)&nbsp;<img src="https://img.shields.io/badge/Easy-65b168" >
