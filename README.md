@@ -2,6 +2,9 @@
 
 [Sources](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/) 
 
+String based question Day 8
+1. [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) &nbsp;<img src="https://img.shields.io/badge/Medium-ffc147" >
+
 String based question Day 7
 1. [Count With K Different Characters](https://www.codingninjas.com/studio/problems/count-with-k-different-characters_1214627)&nbsp;<img src="https://img.shields.io/badge/Medium-ffc147" >
 
