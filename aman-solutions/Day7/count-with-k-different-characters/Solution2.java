@@ -49,6 +49,6 @@ public class Solution {
     }
 
     public static void main(String args[]) {
-        System.out.println(countSubStrings("aacfssa",3));
+        System.out.println(countSubStrings("abcab",2));
     }
 }
