@@ -2,6 +2,10 @@
 
 [Sources](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/) 
 
+Day 9
+1. [Sliding Maximum](https://www.codingninjas.com/studio/problems/sliding-maximum-_701652) &nbsp;<img src="https://img.shields.io/badge/Medium-ffc147" >
+
+
 String based question Day 8
 1. [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) &nbsp;<img src="https://img.shields.io/badge/Medium-ffc147" >
 
