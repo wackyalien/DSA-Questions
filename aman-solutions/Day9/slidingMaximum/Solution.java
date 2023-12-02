@@ -11,13 +11,13 @@ public class Solution {
             if(i == 0||prevmax==Integer. MIN_VALUE) {
                 max=arr[i];
                 for(int j=i;j<i+k;j++) {
-                    System.out.print(arr[j]+" ");
+                    // System.out.print(arr[j]+" ");
                     if(max<arr[j])
                         max=arr[j];
                 }
             }
             else {
-                System.out.print(i+" "+k+" elem "+arr[i+k-1]);
+                // System.out.print(i+" "+k+" elem "+arr[i+k-1]);
                 
                 if(prevmax<arr[i+k-1])
                     max=arr[i+k-1];
@@ -26,7 +26,7 @@ public class Solution {
                 prevmax = max;
             else 
                 prevmax = Integer. MIN_VALUE;
-            System.out.println("max "+max + " prevmax "+prevmax);
+            // System.out.println("max "+max + " prevmax "+prevmax);
 
 
             answer[i]=max;
